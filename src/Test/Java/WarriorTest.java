@@ -22,4 +22,10 @@ public class WarriorTest {
     public void gethealthPoints() {
         assertEquals(100, warrior.getHealthPoints());
     }
+
+    @Test
+    public void canTakeDamage() {
+        warrior.takeDamage(10);
+        assertEquals(90, warrior.getHealthPoints());
+    }
 }

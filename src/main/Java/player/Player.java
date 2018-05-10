@@ -38,7 +38,7 @@ public abstract class Player implements IDamage {
     }
 
     public void takeDamage(int damage){
-        healthPoints -= damage;
+       healthPoints -= damage;
     }
 
 }
