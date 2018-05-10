@@ -1,3 +1,4 @@
+import holdable.Sword;
 import org.junit.Before;
 import org.junit.Test;
 import player.Warrior;
@@ -6,11 +7,13 @@ import static org.junit.Assert.assertEquals;
 
 public class WarriorTest {
 
+    Sword sword;
     Warrior warrior;
 
     @Before
     public void setUp() throws Exception {
         warrior = new Warrior("Tam", 100);
+        sword = new Sword("Excaliber", 10, 100);
     }
 
     @Test
@@ -28,4 +31,29 @@ public class WarriorTest {
         warrior.takeDamage(10);
         assertEquals(90, warrior.getHealthPoints());
     }
+
+    @Test
+    public void getNumberofItemsInHands() {
+        warrior.addItemToHand(sword);
+        assertEquals(1, warrior.numberofItemsInHands());
+    }
+
+    @Test
+    public void canAddItemToHand() {
+        warrior.addItemToHand(sword);
+        assertEquals(1, warrior.numberofItemsInHands());
+    }
+
+    @Test
+    public void canAddItemToKnapsack() {
+        warrior.addItemToKnapsack(sword);
+        assertEquals(1, warrior.numberofItemsInKnapsack());
+    }
+
+    @Test
+    public void getNumberofItemsInKnapsack() {
+        warrior.addItemToKnapsack(sword);
+        assertEquals(1, warrior.numberofItemsInKnapsack());
+    }
+
 }

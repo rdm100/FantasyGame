@@ -41,4 +41,21 @@ public abstract class Player implements IDamage {
        healthPoints -= damage;
     }
 
+    public void addItemToHand(IHold item){
+        this.hands.add(item);
+    }
+
+    public int numberofItemsInHands(){
+      return this.hands.size();
+    }
+
+    public void addItemToKnapsack(IHold item){
+        this.knapsack.add(item);
+    }
+
+    public int numberofItemsInKnapsack(){
+        return this.knapsack.size();
+    }
+
+
 }

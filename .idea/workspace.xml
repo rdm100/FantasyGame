@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6582855-f18a-4591-8711-34d5af8a40e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/WarriorTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Test/Java/WarriorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Java/WarriorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/behaviours/IDamage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/behaviours/IDamage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Java/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Java/player/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Java/player/Warrior.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -57,8 +55,8 @@
       <file leaf-file-name="WarriorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Test/Java/WarriorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="237">
+              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#263#264#0" expanded="true" />
@@ -73,8 +71,8 @@
       <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Java/player/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#472#473#0" expanded="true" />
@@ -83,6 +81,14 @@
                 <element signature="e#570#571#0" expanded="true" />
                 <element signature="e#918#919#0" expanded="true" />
                 <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/Java/player/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#105#106#0" expanded="true" />
                 <element signature="e#146#147#0" expanded="true" />
@@ -621,9 +627,9 @@
         <option value="$PROJECT_DIR$/src/main/Java/room/Treasure.java" />
         <option value="$PROJECT_DIR$/src/main/Java/holdable/Sword.java" />
         <option value="$PROJECT_DIR$/src/main/Java/holdable/Weapon.java" />
-        <option value="$PROJECT_DIR$/src/main/Java/player/Player.java" />
         <option value="$PROJECT_DIR$/src/main/Java/behaviours/IDamage.java" />
         <option value="$PROJECT_DIR$/src/main/Java/player/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/main/Java/player/Player.java" />
         <option value="$PROJECT_DIR$/src/Test/Java/WarriorTest.java" />
       </list>
     </option>
@@ -756,7 +762,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WarriorTest.canTakeDamage">
+  <component name="RunManager" selected="JUnit.WarriorTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -794,6 +800,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="WarriorTest.canAddItemToKnapsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAdventureGame_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WarriorTest" />
+      <option name="METHOD_NAME" value="canAddItemToKnapsack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="WarriorTest.canTakeDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventureGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -811,13 +834,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WarriorTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WarriorTest.getNumberofItemsInHands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAdventureGame_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WarriorTest" />
-      <option name="METHOD_NAME" value="getName" />
+      <option name="METHOD_NAME" value="getNumberofItemsInHands" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -885,17 +908,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.Plugin" />
-      <item itemvalue="JUnit.WarriorTest.getName" />
       <item itemvalue="JUnit.WarriorTest" />
       <item itemvalue="JUnit.WarriorTest.gethealthPoints" />
       <item itemvalue="JUnit.WarriorTest.canTakeDamage" />
+      <item itemvalue="JUnit.WarriorTest.getNumberofItemsInHands" />
+      <item itemvalue="JUnit.WarriorTest.canAddItemToKnapsack" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WarriorTest.canTakeDamage" />
         <item itemvalue="JUnit.WarriorTest" />
+        <item itemvalue="JUnit.WarriorTest.canAddItemToKnapsack" />
+        <item itemvalue="JUnit.WarriorTest.getNumberofItemsInHands" />
+        <item itemvalue="JUnit.WarriorTest.canTakeDamage" />
         <item itemvalue="JUnit.WarriorTest.gethealthPoints" />
-        <item itemvalue="JUnit.WarriorTest.getName" />
       </list>
     </recent_temporary>
   </component>
@@ -925,6 +950,18 @@
     <history-entry file="WarriorTest - 2018.05.10 at 13h 21m 50s.xml">
       <configuration name="WarriorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WarriorTest_canTakeDamage - 2018.05.10 at 13h 25m 16s.xml">
+      <configuration name="WarriorTest.canTakeDamage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_getNumberofItemsInHands - 2018.05.10 at 13h 40m 50s.xml">
+      <configuration name="WarriorTest.getNumberofItemsInHands" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest - 2018.05.10 at 13h 41m 02s.xml">
+      <configuration name="WarriorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WarriorTest_canAddItemToKnapsack - 2018.05.10 at 13h 44m 19s.xml">
+      <configuration name="WarriorTest.canAddItemToKnapsack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -938,12 +975,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25838926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25838926" />
       <window_info anchor="bottom" id="Build" weight="0.3418079" />
       <window_info anchor="right" id="Gradle" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -992,6 +1029,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml">
@@ -1087,13 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/behaviours/IHold.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/holdable/Weapon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="309">
@@ -1101,17 +1136,6 @@
           <folding>
             <element signature="e#386#387#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/player/Knight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1136,21 +1160,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Java/player/Warrior.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Java/behaviours/IHold.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/player/Knight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Java/player/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
@@ -1159,14 +1190,33 @@
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#918#919#0" expanded="true" />
             <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Java/player/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/Java/WarriorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="237">
+          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#263#264#0" expanded="true" />
@@ -1194,7 +1244,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1242,7 +1292,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Gradle: junit:junit:4.12</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
