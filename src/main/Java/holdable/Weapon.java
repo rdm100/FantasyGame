@@ -25,4 +25,20 @@ public abstract class Weapon implements IHold {
     public int getDurability() {
         return durability;
     }
+
+    public void addItemToHand(){
+
+    }
+
+    public void removeItemToHand(){
+
+    }
+
+    public void addItemFromKnapsack(){
+
+    }
+
+    public void removeItemFromKnapsack(){
+
+    }
 }

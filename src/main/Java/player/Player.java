@@ -1,10 +1,11 @@
 package player;
 
+import behaviours.IDamage;
 import behaviours.IHold;
 
 import java.util.ArrayList;
 
-public abstract class Player {
+public abstract class Player implements IDamage {
 
     private String name;
     private int healthPoints;
@@ -14,8 +15,8 @@ public abstract class Player {
     public Player(String name, int healthPoints) {
         this.name = name;
         this.healthPoints = healthPoints;
-        this.hands = new ArrayList<>();
-        this.knapsack = new ArrayList<>();
+        this.hands = new ArrayList<IHold>();
+        this.knapsack = new ArrayList<IHold>();
     }
 
     public String getName() {
@@ -34,6 +35,10 @@ public abstract class Player {
     public ArrayList getKnapsack(){
         ArrayList copyKnapsack = new ArrayList<>(knapsack);
         return copyKnapsack;
+    }
+
+    public void takeDamage(int damage){
+        healthPoints -= damage;
     }
 
 }

@@ -19,4 +19,6 @@ public abstract class Treasure implements IRoom, IHold {
     public int getWorth() {
         return worth;
     }
+
+
 }
