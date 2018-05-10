@@ -1,9 +1,9 @@
 package room;
 
 import behaviours.IHold;
-import behaviours.IRoom;
+import behaviours.IBelongInRoom;
 
-public abstract class Treasure implements IRoom, IHold {
+public abstract class Treasure implements IHold, IBelongInRoom {
     private String name;
     private int worth;
 

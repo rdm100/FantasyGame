@@ -57,5 +57,25 @@ public abstract class Player implements IDamage {
         return this.knapsack.size();
     }
 
+    public IHold removeFromHand(IHold item){
+       this.hands.remove(item);
+       return item;
+    }
 
+    public IHold removeFromKnapsack(IHold item){
+        this.knapsack.remove(item);
+        return item;
+    }
+
+    public void passItemFromKnapsackToHand(IHold item){
+//        this.removeFromKnapsack(item);
+//        this.addItemToHand(item);
+        this.knapsack.remove(item);
+        this.hands.add(item);
+    }
+
+    public void passItemFromHandToKnapsack(IHold item) {
+        this.hands.remove(item);
+        this.knapsack.add(item);
+    }
 }

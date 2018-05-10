@@ -1,5 +1,7 @@
 package room;
 
+import behaviours.IBelongInRoom;
+
 import java.util.ArrayList;
 
 public abstract class Room{
@@ -20,5 +22,14 @@ public abstract class Room{
         ArrayList copyRoomContains = new ArrayList<>(roomContains);
         return copyRoomContains;
     }
+
+    public void addObjectToRoom(IBelongInRoom item){
+        roomContains.add(item);
+    }
+
+    public void removeObjectToRoom(IBelongInRoom item){
+        roomContains.remove(item);
+    }
+
 
 }

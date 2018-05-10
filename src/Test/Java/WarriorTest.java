@@ -56,4 +56,30 @@ public class WarriorTest {
         assertEquals(1, warrior.numberofItemsInKnapsack());
     }
 
+    @Test
+    public void canRemoveFromHand(){
+        warrior.addItemToHand(sword);
+        warrior.removeFromHand(sword);
+        assertEquals(0, warrior.numberofItemsInHands());
+    }
+
+    @Test
+    public void canRemoveFromKnapsack(){
+        warrior.addItemToKnapsack(sword);
+        warrior.removeFromKnapsack(sword);
+        assertEquals(0, warrior.numberofItemsInHands());
+    }
+
+    @Test
+    public void canPassItemFromKnapsackToHand() {
+        warrior.passItemFromKnapsackToHand(sword);
+        assertEquals(1, warrior.numberofItemsInHands());
+    }
+
+    @Test
+    public void canPassItemFromHandToKnapsack() {
+        warrior.passItemFromHandToKnapsack(sword);
+        assertEquals(1, warrior.numberofItemsInKnapsack());
+    }
+
 }

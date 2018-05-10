@@ -1,8 +1,10 @@
 package room;
 
-import behaviours.IRoom;
+import behaviours.IDamage;
+import behaviours.IHold;
+import behaviours.IBelongInRoom;
 
-public abstract class Monster implements IRoom {
+public abstract class Monster implements IBelongInRoom, IDamage {
     private String name;
     private int attackValue;
     private int healthPoints;
@@ -24,4 +26,10 @@ public abstract class Monster implements IRoom {
     public int getHealthPoints() {
         return healthPoints;
     }
+
+    public void takeDamage(int damage){
+        healthPoints -=  damage;
+    }
+
+
 }
